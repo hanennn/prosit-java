@@ -1,0 +1,26 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class Main {
+    public static void main(String[] args) {
+       // System.out.println("Try programiz.pro");
+       System.out.println("my zoo comporte 20 cages");
+       
+       Scanner sc = new Scanner(System.in);
+       do {
+           System.out.println("entrez le nom du zoo");
+           String zooName = sc.nextLine();
+       }while(zooName="");
+       
+       do{
+            System.out.println("entrez le nombre de cages");
+            int nbrCages = sc.nextLine();
+       }while(nbrCages<=0);
+    }
+    
+public class ZooManangement{
+    int nbrCages;
+    String zooName;
+}
+   
+}
